@@ -1,0 +1,45 @@
+<<<<<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video con fondo de astronautas</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Luna.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #video-container {
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #video {
+        width: 500x; /* Ancho del video */
+        height: 400px; /* Alto del video */
+    }
+</style>
+</head>
+<body>
+<div id="video-container">
+    <video id="video" controls autoplay loop>
+        <source src="Video Yaz.mp4" type="video/mp4"> <!-- Cambia 'video_cumpleaños.mp4' por la ruta de tu video -->
+        Your browser does not support the video tag.
+      
+    </video>
+  </div>
+  <a href="index.html">Inicio</a>
+</body>
+</html>
+
+
+
